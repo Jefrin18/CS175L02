@@ -6,7 +6,7 @@ public class HousePainting {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		//Accept all dimensions
+		//House dimensions
 		System.out.print("Enter width of the house: ");
 		int houseWidth = input.nextInt();
 		System.out.print("Enter length of the house: ");
@@ -15,14 +15,13 @@ public class HousePainting {
 		//Perform Computations
 		int houseSqFT = houseLength * houseWidth;
 		
-		
 		System.out.print("Enter height of the house: ");
 		int houseHeight = input.nextInt();
 		
 		//Perform Computation
 		double peakSqFT = houseSqFT + .5*(houseLength*(houseHeight - houseWidth));
 		
-		
+		//Window dimensions
 		System.out.print("Enter number of the house windows: ");
 		int numberOfWindows = input.nextInt();
 		
@@ -34,6 +33,7 @@ public class HousePainting {
 		
 		int windowSqFT = (lengthOfWindow * widthOfWindow) * numberOfWindows;
 		
+		//Door dimensions
 		System.out.print("Enter number of the house doors: ");
 		int numberOfDoor = input.nextInt();
 		
@@ -45,7 +45,7 @@ public class HousePainting {
 		
 		int doorSqFT = (lengthOfDoor * widthOfDoor) * numberOfDoor;
 		
-		
+		//Sum
 		double totalSqFT = ((2 * houseSqFT + 2 * peakSqFT) - (windowSqFT + doorSqFT));
 		System.out.println("Total square feet: " + totalSqFT);
 		
