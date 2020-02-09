@@ -32,8 +32,8 @@ public class CarDecision {
 		double costOfHybridYear1 = hybridCost + 
 				(milesYear / gallonHybrid * costGallon);
 		
-		System.out.println("Cost to own after year 1 for regular car: " + costOfYear1Regular + 
-				" for hybrid car: " + costOfHybridYear1);
+		System.out.println("Cost to own after year 1 for regular car: $" + costOfYear1Regular + 
+				" for hybrid car: $" + costOfHybridYear1);
 
 		double costOfYear2Regular = carCost + 
 				((2 * milesYear) / gallonCar * costGallon);
@@ -41,8 +41,8 @@ public class CarDecision {
 		double costOfHybridYear2 = hybridCost + 
 				((2 * milesYear) / gallonHybrid * costGallon);
 		
-		System.out.println("Cost to own after year 2 for regular car: " + costOfYear2Regular + 
-				" for hybrid car: " + costOfHybridYear2);
+		System.out.println("Cost to own after year 2 for regular car: $" + costOfYear2Regular + 
+				" for hybrid car: $" + costOfHybridYear2);
 				
 		double costOfYear3Regular = carCost + 
 				((3 * milesYear) / gallonCar * costGallon);
@@ -50,8 +50,8 @@ public class CarDecision {
 		double costOfHybridYear3 = hybridCost + 
 				((3 * milesYear) / gallonHybrid * costGallon);
 		
-		System.out.println("Cost to own after year 3 for regular car: " + costOfYear3Regular + 
-				" for hybrid car: " + costOfHybridYear3);
+		System.out.println("Cost to own after year 3 for regular car: $" + costOfYear3Regular + 
+				" for hybrid car: $" + costOfHybridYear3);
 		
 		double costOfYear4Regular = carCost + 
 				((4 * milesYear) / gallonCar * costGallon);
@@ -59,8 +59,8 @@ public class CarDecision {
 		double costOfHybridYear4 = hybridCost + 
 				((4 * milesYear) / gallonHybrid * costGallon);
 		
-		System.out.println("Cost to own after year 4 for regular car: " + costOfYear4Regular + 
-				" for hybrid car: " + costOfHybridYear4);
+		System.out.println("Cost to own after year 4 for regular car: $" + costOfYear4Regular + 
+				" for hybrid car: $" + costOfHybridYear4);
 		
 		double costOfYear5Regular = carCost + 
 				((5 * milesYear) / gallonCar * costGallon);
@@ -68,8 +68,8 @@ public class CarDecision {
 		double costOfHybridYear5 = hybridCost + 
 				((5 * milesYear) / gallonHybrid * costGallon);
 		
-		System.out.println("Cost to own after year 5 for regular car: " + costOfYear5Regular + 
-				" for hybrid car: " + costOfHybridYear5);
+		System.out.println("Cost to own after year 5 for regular car: $" + costOfYear5Regular + 
+				" for hybrid car: $" + costOfHybridYear5);
 		
 		//if else
 		if (costOfHybridYear5 < costOfYear5Regular)
