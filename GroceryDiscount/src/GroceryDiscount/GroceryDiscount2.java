@@ -38,7 +38,7 @@ public class GroceryDiscount2 {
 	        	while ( !input.hasNextDouble()) {
 	                String word = input.next();
 	                System.out.println("'" + word + "'" + " is not a valid number");
-	                System.out.print("Please enter a positive number: ");
+	                System.out.print("Please enter a number between 10 and a 1000 dollars: ");
 	            }
 	            groceryCost = input.nextDouble();
 	        } while (groceryCost < i);
