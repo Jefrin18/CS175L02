@@ -22,7 +22,7 @@ public class GroceryDiscount2 {
 			
 			double groceryCost;
 			double discount;
-			
+			int i = Integer.MIN_VALUE;
 		
 			
 			
@@ -37,11 +37,11 @@ public class GroceryDiscount2 {
 				System.out.print("Please enter the cost of your groceries or 0 to End: $"); 
 	        	while ( !input.hasNextDouble()) {
 	                String word = input.next();
-	                System.out.println("(" + word + ")" + " is not a valid number");
+	                System.out.println("'" + word + "'" + " is not a valid number");
 	                System.out.print("Please enter a positive number: ");
 	            }
 	            groceryCost = input.nextDouble();
-	        } while (groceryCost < 0);
+	        } while (groceryCost < i);
 			
 			if (groceryCost == 0) {
 				system = false;
