@@ -22,7 +22,7 @@ public class NOAAHeatIndex {
 		System.out.printf("|       ");
 		for (double x = 80; x<=110;x = x + 2) 
 		{
-			System.out.printf("%5.0f",x);
+			System.out.printf("%5.0f",x );
 		}
 		System.out.println();
 		System.out.println("|      _________________________________________________________________________________");
@@ -43,6 +43,7 @@ public class NOAAHeatIndex {
 			System.out.println();
 		
 		}
+		System.out.println("");
 		while(run = true) {
 			System.out.print("Please enter temperature in fahrenheit or '0' to end: ");
 			double T = input.nextDouble();
