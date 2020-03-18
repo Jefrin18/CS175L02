@@ -13,22 +13,22 @@ public class NOAAHeatIndex {
 		double results = 0;
 		double thi = 0;
 		
-		System.out.println("                              NOOA'S National Weather Service");
+		System.out.println("                               NOOA'S National Weather Service");
 		System.out.println("                                         Heat Index");
 		System.out.println("");
 		System.out.println("");
-		System.out.println("                                     Temperature ˚F");
-		
-		System.out.printf("       ");
+		System.out.println("                                      Temperature ˚F");
+		System.out.println(" _______________________________________________________________________________________");
+		System.out.printf("|       ");
 		for (double x = 80; x<=110;x = x + 2) 
 		{
 			System.out.printf("%5.0f",x);
 		}
 		System.out.println();
-		System.out.println("_______________________________________________________________________________________");
+		System.out.println("|      _________________________________________________________________________________");
 		for (double RH = 40; RH <= 100; RH = RH+5)
 		{
-			System.out.printf("%4.0f | ",RH);
+			System.out.printf("|%4.0f | ",RH);
 			for (double T = 80; T <= 110; T += 2) {
 				results = -42.379 + 2.04901523*T + 10.14333127*RH - .22475541*T*RH - .00683783*T*T - .05481717*RH*RH + 
 				.00122874*T*T*RH + .00085282*T*RH*RH - .00000199*T*T*RH*RH;
