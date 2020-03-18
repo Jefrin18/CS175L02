@@ -43,6 +43,7 @@ public class NOAAHeatIndex {
 			System.out.println();
 		
 		}
+		System.out.println(" ——————————————————————————————————————————————————–————————————————————————————————————");
 		System.out.println("");
 		while(run = true) {
 			System.out.print("Please enter temperature in fahrenheit or '0' to end: ");
